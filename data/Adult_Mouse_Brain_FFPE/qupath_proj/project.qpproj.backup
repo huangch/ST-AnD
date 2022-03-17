@@ -1,0 +1,140 @@
+{
+  "version": "0.4.0-SNAPSHOT",
+  "createTimestamp": 1647159827429,
+  "modifyTimestamp": 1647159827429,
+  "uri": "file:/workspace/sptx/Adult_Mouse_Brain_FFPE/qupath_proj/project.qpproj",
+  "lastID": 1,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/workspace/sptx/Adult_Mouse_Brain_FFPE/Visium_FFPE_Mouse_Brain_image.jpg",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Visium_FFPE_Mouse_Brain_image.jpg",
+            "width": 25216,
+            "height": 27444,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 25216,
+                "height": 27444
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 25216,
+            "preferredTileHeight": 27444
+          }
+        },
+        "metadata": {
+          "name": "Visium_FFPE_Mouse_Brain_image.jpg",
+          "width": 25216,
+          "height": 27444,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 25216,
+              "height": 27444
+            },
+            {
+              "downsample": 4.0,
+              "width": 6304,
+              "height": 6861
+            },
+            {
+              "downsample": 16.0,
+              "width": 1576,
+              "height": 1715
+            },
+            {
+              "downsample": 64.0,
+              "width": 394,
+              "height": 428
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.3448,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.3448,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 256
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "278c46cf-f2db-4c47-b74f-01028892d204",
+      "imageName": "Visium_FFPE_Mouse_Brain_image.jpg",
+      "metadata": {}
+    }
+  ]
+}

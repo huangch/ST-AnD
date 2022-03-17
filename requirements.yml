@@ -1,0 +1,38 @@
+name: p
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.8 
+  - setuptools==59.7 
+  - pillow 
+  - tensorflow-gpu 
+  - tensorboard 
+  - torchvision==0.9.1
+  - cudatoolkit
+  - scikit-image
+  - scikit-learn
+  - configparser 
+  - scanpy 
+  - seaborn 
+  - pandas 
+  - networkx 
+  - jupyterlab 
+  - ipywidgets
+  - rpy2 
+# R
+  - r-base 
+  - r-tidyverse 
+  - r-extrafont 
+  - r-seurat 
+  - r-irkernel 
+  - r-hdf5r 
+  - r-spatstat 
+  - r-philentropy 
+  - r-ini 
+# pip
+  - pip
+  - pip:
+    - phenograph==1.5.7
+    - git+https://github.com/ludvb/xfuse@master
+    - squidpy
