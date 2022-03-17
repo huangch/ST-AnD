@@ -1,4 +1,4 @@
-# Single Cell Gene Expression Prediction using H&E Images based on Spatial Transcriptomics
+# ST-AnD: Single Cell Gene Expression Prediction using H&E Images based on Spatial Transcriptomics
 
 **Abstract** *In situ* RNA capturing represents an excellent opportunity for bridging transcriptomic data to a spatial domain, making it possible to map the gene expression to the corresponding anatomical structure. As a result, scientists can better understand the transcriptional heterogeneity with spatially re-solved, anatomical, and pathophysiological contexts. However, high throughput sequencing technologies paired with histological images suffer from lower resolution mapping between transcriptome and imaging data. Here, we present Spatial Transcriptome Auto-encoder & Deconvolution (ST-AnD), a scalable deep generative model for predicting gene expression at cellular or nuclei level based on H&E imaging and in situ RNA capturing, thus allowing a better understanding of the tissue microenvironment of a disease.
 
